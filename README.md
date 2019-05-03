@@ -5,7 +5,10 @@ This project is meant to serve as an internal routing system and landing page fo
 ## Running locally
 
 If you have just pullled this project down, run `npm i`.
+
 Then run `npm start`.
+
+Then navigate to http://localhost:4200.
 
 ## Back end
 

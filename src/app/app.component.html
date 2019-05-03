@@ -5,8 +5,8 @@
   </mat-sidenav>
   <mat-sidenav-content>
     <mat-toolbar>
-      <button mat-button (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></button>
-      <button mat-button>GoLinks</button>
+      <button mat-button *ngIf="isMobile" (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></button>
+      <button mat-button *ngIf="!isMobile" >Go Links</button>
     </mat-toolbar>
     <router-outlet></router-outlet>
   </mat-sidenav-content>
